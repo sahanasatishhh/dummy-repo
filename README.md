@@ -1,2 +1,1 @@
-# dummy-repo
-test-gitleaks
+# Hello World
