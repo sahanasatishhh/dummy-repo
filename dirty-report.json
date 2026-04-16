@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 9,
+  "EndLine": 9,
+  "StartColumn": 2,
+  "EndColumn": 45,
+  "Match": "API_KEY = \"8dyfuiRyq=vVc3RRr_edRk-fK__JItpZ\"",
+  "Secret": "8dyfuiRyq=vVc3RRr_edRk-fK__JItpZ",
+  "File": "secrets.py",
+  "SymlinkFile": "",
+  "Commit": "dc8167495a4e1a865a0289a3751d2885f1b4734a",
+  "Link": "https://github.com/sample_user/sample_repo/blob/ftsdkjfbqireoyg3751d2885f1b4734a/secrets.py#L9",
+  "Entropy": 4.41391,
+  "Author": "Sample User",
+  "Email": "sample_user@gmail.com",
+  "Date": "2026-04-16T04:02:07Z",
+  "Message": "oops added creds",
+  "Tags": [],
+  "Fingerprint": "ftsdkjfbqireoyg3751d2885f1b4734a:secrets.py:generic-api-key:9"
+ }
+]
